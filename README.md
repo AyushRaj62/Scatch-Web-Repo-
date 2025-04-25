@@ -22,45 +22,8 @@ A modern e-commerce website for premium leather bags built with Node.js, Express
 - Bootstrap
 - JWT Authentication
 
-## Prerequisites
 
-- Node.js (v14 or higher)
-- MongoDB
-- npm
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone [your-repo-url]
-   cd [your-repo-name]
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a .env file in the root directory with the following variables:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/scatch
-   SESSION_SECRET=your-secret-key
-   PORT=3000
-   ```
-
-4. Start the server:
-   ```bash
-   npm start
-   ```
-
-   For development with auto-reload:
-   ```bash
-   npm run dev
-   ```
-
-5. Visit `http://localhost:3000` in your browser
-
-## Project Structure
+ ## Project Structure
 
 - `/controllers` - Request handlers
 - `/middlewares` - Custom middleware functions
@@ -79,14 +42,3 @@ A modern e-commerce website for premium leather bags built with Node.js, Express
 - Password hashing
 - JWT authentication
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the ISC License. 
